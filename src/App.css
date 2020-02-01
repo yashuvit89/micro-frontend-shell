@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+#appShell {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#Product-container {
+  flex: 1;
+  border-right: 2px solid white;
+}
+
+#Cart-container {
+  flex: 1;
+}

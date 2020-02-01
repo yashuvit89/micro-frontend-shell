@@ -8499,6 +8499,18 @@ react-app-polyfill@^1.0.5:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
+react-app-rewire-micro-frontends@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/react-app-rewire-micro-frontends/-/react-app-rewire-micro-frontends-0.0.1.tgz#f5d06ffaee7053e6c8348c9de733c4411f2b2274"
+  integrity sha512-3LYKvHksxKDr6IfhjrG5T7W27YBK37ISUltx3yE9h0end4y+Xf5bZqAABh5V6eCf/nW1ykDKa2Onqt/cpswnBQ==
+
+react-app-rewired@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/react-app-rewired/-/react-app-rewired-2.1.5.tgz#592ec2eae5c3c5cd96c80930b5dc3f6c34da1dc6"
+  integrity sha512-Gr8KfCeL9/PTQs8Vvxc7v8wQ9vCFMnYPhcAkrMlzkLiMFXS+BgSwm11MoERjZm7dpA2WjTi+Pvbu/w7rujAV+A==
+  dependencies:
+    semver "^5.6.0"
+
 react-dev-utils@^10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-10.0.0.tgz#bd2d16426c7e4cbfed1b46fb9e2ac98ec06fcdfa"
