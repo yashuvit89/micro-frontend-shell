@@ -52,3 +52,8 @@
 #Cart-container {
   flex: 1;
 }
+
+.AppDetails {
+  display: flex;
+  align-items: center;
+}
