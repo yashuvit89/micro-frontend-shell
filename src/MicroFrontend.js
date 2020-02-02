@@ -14,13 +14,10 @@ const injectScript = src => {
 
 export default class MicroFrontend extends React.Component {
   componentDidMount() {
-    // only for testing
-
     const { name, host } = this.props;
     const scriptId = `micro-frontend-script-${name}`;
     if (document.getElementById(scriptId)) {
-      console.log("Microfrontend: script ID found");
-      // this.renderMicroFrontend();
+      this.renderMicroFrontend();
       return;
     }
 
@@ -41,12 +38,7 @@ export default class MicroFrontend extends React.Component {
 
   renderMicroFrontend = () => {
     const { name, history } = this.props;
-    console.log(
-      "Microfrontend: RenderMicrofrontend",
-      `render${name}`,
-      `${name}-container`
-    );
-    window[`render${name}`](`${name}-container`, history);
+    window[`render${name}`](`${name}-container`, this.props);
   };
 
   render() {
